@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sentinel AI Assistant</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PARTICLES BACKGROUND -->
+  <div id="particles"></div>
+
+  <!-- BACKGROUND GLOW -->
+  <div class="background-glow"></div>
+
+  <!-- MAIN CHAT -->
+  <div class="chat-container">
+
+    <!-- HEADER -->
+    <div class="chat-header">
+
+      <div>
+        <h1>Sentinel AI Assistant</h1>
+        <p>Prawo i etyka sztucznej inteligencji</p>
+      </div>
+
+      <button id="newChatBtn">
+        Nowy Chat
+      </button>
+
+    </div>
+
+    <!-- CHAT -->
+    <div class="chat-box" id="chatBox">
+
+      <!-- START MESSAGE -->
+      <div class="message bot">
+
+        <div class="message-content">
+          Witaj 👋<br><br>
+
+          Jestem Sentinel AI Assistant.<br>
+          Analizuję etyczne i prawne aspekty użycia sztucznej inteligencji.
+          Jeśli masz wątpliwości odnośnie swojego postępowania - zapytaj mnie, a ja opiszę możliwe ograniczenia.
+
+          <br><br>
+
+          Możesz zapytać mnie o:
+          <br><br>
+
+          • egzaminy i oszustwa<br>
+          • deepfake<br>
+          • prywatność danych<br>
+          • prawa autorskie<br>
+          • manipulację AI<br>
+          • dezinformację<br>
+          • bezpieczeństwo AI
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- INPUT -->
+    <div class="input-area">
+
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Napisz wiadomość..."
+      >
+
+      <button id="sendBtn">
+        Wyślij
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
